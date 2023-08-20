@@ -67,7 +67,7 @@ correctDate.setHours(0, 0, 0, 0);
 isEarlier = copied.date.getTime() < holidays[christmas].date.getTime();
 console.log("New date is earlier:", isEarlier);
 
-if (isEarlier) copied.date = correctDate;
+if (isEarlier) copied.date = correctDate; //Apply changes if the new date is earlier
 
 if (isEarlier) copied.date = correctDate;
 console.log("ID change:", copied.id !== holidays[christmas].id || copied.id);
